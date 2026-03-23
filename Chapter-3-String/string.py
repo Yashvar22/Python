@@ -10,7 +10,7 @@ st="SHER CODER"
 
 print(st[-1],st[3])
 
-#String Slicing [st_idx,end_idx,]
+#String Slicing [st_idx,end_idx,skip]
 print(st[5::2])#CDR SkIP values
 
 
