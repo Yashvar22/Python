@@ -1,0 +1,6 @@
+As the window slides we will add the new word entering the window and remove the word exiting the window
+Since , we have figured out the sliding window, let's now figure out the algorithm, it should follow !! python
+The sliding of the window will be chunk based, why ?
+Because all words have the same length, we can move the window by wordLength (length of each word) steps instead of sliding character by character, further reducing unnecessary computations.
+
+Before, we move forward to the optimal algorithm, we need to initialize necessary

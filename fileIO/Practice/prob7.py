@@ -6,7 +6,8 @@ lineno=1;
 for line in lines:
       
     if("python" in line):
-      print(f"yes pyhton is preent in line no:{line}")
+      print(f"yes pyhton is preent in line no:{lineno}")
+      break;
       lineno+=1;
    
 else:
